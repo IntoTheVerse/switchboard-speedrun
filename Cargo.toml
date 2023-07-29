@@ -1,5 +1,5 @@
 [package]
-name = "switchboard-function"
+name = "switchboard"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,5 @@ tokio = "^1"
 futures = "0.3"
 switchboard-solana = "0.9.5"
 switchboard-utils = "0.8"
+bytemuck_derive = "1.4.1"
+bytemuck = "1.13.1"

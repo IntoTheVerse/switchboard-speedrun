@@ -1,8 +1,8 @@
 .PHONY: build clean publish test
 
 # Variables
-CARGO_NAME=switchboard-function # Cargo.toml name
-DOCKER_IMAGE_NAME=switchboardlabs/my-function # Docker registry image name
+CARGO_NAME=switchboard # Cargo.toml name
+DOCKER_IMAGE_NAME=e17o/my-function # Docker registry image name
 
 DOCKER_BUILD_COMMAND=DOCKER_BUILDKIT=1 docker buildx build --platform linux/amd64 --build-arg CARGO_NAME=${CARGO_NAME}
 
